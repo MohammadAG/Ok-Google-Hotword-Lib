@@ -6,6 +6,7 @@ Reimplementation of library used by OEMs to include the "Ok Google" hotword in l
 Usage
 =====
 
+Import this library into your IDE and include it in your project. (Eclipse: right click, properties, Android, Library -> Add)
 In your launcher's main Activity:
 
 In onCreate, create a HotwordServiceClient instance.
