@@ -54,7 +54,7 @@ public class HotwordServiceClient {
 		}
 
 		Intent localIntent = new Intent(HOTWORD_SERVICE).setPackage(VEL_PACKAGE);
-		mIsAvailable = mActivity.bindService(localIntent, mConnection, 1);
+		mIsAvailable = mActivity.bindService(localIntent, mConnection, Context.BIND_AUTO_CREATE);
 		mIsBound = mIsAvailable;
 	}
 
